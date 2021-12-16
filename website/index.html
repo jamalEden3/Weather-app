@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Journal</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <main id="app">
+    <header class="header">
+      <article class="header__l">
+        <h1 class ="header__title">
+          Weather Journal App
+        </h1>
+        <small id='error'></small>
+        <div class ="header__data">
+          <h2 class ="data__title">Your Data will appear here <span>&#10549;</span></h2>
+            <div class ="data__box">
+              <div class="data__temp">
+                <p id ="temp"></p>
+                <p id="description"></p>
+              </div>
+              <div class="data__additional">
+                <div class="data__infos">
+                  <p id="city"></p>
+                  <p id ="content"></p>
+                  <p id ="date"></p> 
+                </div>
+              </div>
+            </div>
+        </div>
+      </article>
+      <article class="header__r">
+        <div class="header__zip">
+          <input type="text" id="zip" onfocus="checkForm()" placeholder="enter zip code here" class="header__zip__input">
+          <label for="zip" class="header__zip__label">Enter Zipcode here</label>
+        </div>
+        <div class ="header__feelings">
+          <label for="feelings" class="feelings__label">How are you feeling today?</label>
+          <textarea class="myInput feelings__textArea" id="feelings" placeholder="Enter your feelings here" rows="3" cols="30"></textarea>
+          <button id="generate" type ="submit" class="feelings__btn">Generate</button>
+        </div>
+      </article>
+    </header> 
+    </main>
+  <script src="app.js">
+  </script>
+</body>
+</html>
