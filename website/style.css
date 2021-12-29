@@ -39,7 +39,7 @@ img {
     flex-direction: column;
     position: relative;
     width: 70%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .header__zip__label {
     position: absolute;
@@ -95,7 +95,7 @@ img {
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
-    margin: 15px 0;
+    margin: 10px 0;
     font-size: 20px;
     background-color: #e4be14;
 }
@@ -117,7 +117,7 @@ img {
 .header__data {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .data__title {
     text-align: center;
@@ -133,7 +133,7 @@ img {
     flex-direction: column;
 }
 .data__box > p:not(:last-child) {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .data__temp {
     flex: 1;
@@ -226,7 +226,21 @@ p#content {
 small#error {
     text-align: center;
     font-size: 30px;
-    margin: 16px auto;
+    margin: 10px auto;
     display: block;
     color: #ca1111
+}
+
+.data__MXtemp, .data__MINtemp {
+    font-size: 20px;
+    display: block;
+    color: #ab3c3c;
+}
+.data__infos p#country {
+    margin: 10px 0;
+    font-size: 20px;
+}
+.data__infos p#date {
+    font-size: 25px;
+    color: #ab3c3c;
 }

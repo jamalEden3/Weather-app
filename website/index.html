@@ -18,13 +18,15 @@
             <div class ="data__box">
               <div class="data__temp">
                 <p id ="temp"></p>
+                <span class="data__MXtemp" id="data__MXtemp"></span>
+                <span class="data__MINtemp" id="data__MINtemp"></span>
                 <p id="description"></p>
               </div>
               <div class="data__additional">
                 <div class="data__infos">
                   <p id="city"></p>
-                  <p id ="content"></p>
-                  <p id ="date"></p> 
+                  <p id="country"></p>
+                  <p id="date"></p>
                 </div>
               </div>
             </div>
@@ -32,8 +34,8 @@
       </article>
       <article class="header__r">
         <div class="header__zip">
-          <input type="text" id="zip" onfocus="checkForm()" placeholder="enter zip code here" class="header__zip__input">
-          <label for="zip" class="header__zip__label">Enter Zipcode here</label>
+          <input type="text" id="cityName" onfocus="checkForm()" placeholder="enter zip code here" class="header__zip__input">
+          <label for="zip" class="header__zip__label">City Name</label>
         </div>
         <div class ="header__feelings">
           <label for="feelings" class="feelings__label">How are you feeling today?</label>
